@@ -1,0 +1,19 @@
+.descendant span { /*Descendant combinator*/
+    color: red;
+}
+
+.child-combinator > span { /*Child combinator*/
+    color: green;
+}
+
+.next-sibling-combinator ul + p { /*Next-sibling combinator */
+    color: aqua;
+}
+
+.next-sibling-combinator ul + p + div { /*Next-sibling combinator */
+    color: cornflowerblue;
+}
+
+.following-sibling-combinator ul ~ span { /*Next-sibling combinator */
+    color: chartreuse;
+}

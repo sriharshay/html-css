@@ -2,9 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
     <title>CSS - Combinators</title>
 </head>
 <body>
+    <div class="descendant">
+        <p>
+            Sample content <span>verify descendant combinator - not immediate child</span>
+        </p>
+        <span>verify descendant combinator - Immediate child</span>
+    </div>
+    <div class="child-combinator">
+        <p>
+            Sample content <span>verify child combinator - not immediate child</span>
+        </p>
+        <span>verify child combinator - Immediate child</span>
+    </div>
+    <div class="next-sibling-combinator">
+        <ul>
+            <li>
+                List Item 1
+            </li>
+            <li>
+                List Item 2
+            </li>
+            <li>
+                List Item 3
+            </li>
+        </ul>
+        <p>
+            Sample content <span>verify next sibling combinator - not immediate child</span>
+        </p>
+        <div>test</div>
+        <span>verify next sibling combinator - Immediate child</span>
+    </div>
 
+    <div class="following-sibling-combinator">
+        <ul>
+            <li>
+                List Item 1
+            </li>
+            <li>
+                List Item 2
+            </li>
+            <li>
+                List Item 3
+            </li>
+        </ul>
+        <p>
+            Sample content <span>verify next sibling combinator - not immediate child</span>
+        </p>
+        <div>test</div>
+        <span>verify next sibling combinator - Immediate child</span>
+    </div>
 </body>
 </html>
