@@ -1,0 +1,11 @@
+.bg-color-with-clear-text {
+    background: rgba(255, 0, 0, 0.5);
+    width: 100%;
+    height: 200px;
+}
+.bg-color-with-transparent-text {
+    opacity: 0.5;
+    background: red;
+    width: 100%;
+    height: 200px;
+}
