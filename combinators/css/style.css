@@ -14,6 +14,6 @@
     color: cornflowerblue;
 }
 
-.following-sibling-combinator ul ~ span { /*Next-sibling combinator */
+.following-sibling-combinator ul ~ span { /*Following-sibling combinator */
     color: chartreuse;
 }
