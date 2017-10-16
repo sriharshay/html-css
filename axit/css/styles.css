@@ -4,16 +4,22 @@ body {
     font-family: sans-serif;
 }
 
+.vpw {
+    padding: 0 100px 0 100px;
+
+}
+
 .container .container-header {
-    padding : 0 100px 0 100px;
     background-color: #000;
 }
+
 .header {
     background-color: #000;
     overflow: auto;
     color: #fff;
 }
-.header .logo{
+
+.header .logo {
     float: left;
 }
 
@@ -21,22 +27,33 @@ body {
     list-style-type: none;
     float: right;
 }
+
 .nav ul li {
     padding: 10px;
     float: left;
 }
+
 .clear-fix {
     clear: both;
 }
-.container-main {
-    padding : 0 100px 0 100px;
-}
+
 .banner {
     background: url("../image/bgr.jpg") no-repeat;
     background-size: cover;
     width: 100%;
     height: 640px;
+    color: #fff;
 }
+
+.banner .banner-content {
+    position: absolute;
+    top: 150px;
+}
+
+.banner .banner-content .title {
+
+}
+
 .container-footer {
     text-align: center;
 }
