@@ -6,11 +6,14 @@ body {
 
 .vpw {
     padding: 0 100px 0 100px;
-
 }
 
 .container .container-header {
     background-color: #000;
+}
+
+.container .container-header .logo img {
+    width: 50%;
 }
 
 .header {
@@ -47,11 +50,38 @@ body {
 
 .banner .banner-content {
     position: absolute;
-    top: 150px;
+    top: 45%;
+    left: 7%;
 }
 
 .banner .banner-content .title {
+    text-transform: uppercase;
+}
 
+hr {
+    width: 60px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+hr.hr-white {
+    color: #ffffff;
+}
+
+hr.hr-yelow {
+    color: #ffff00;
+}
+
+.banner .banner-content .download {
+    border: 1px solid white;
+    margin-right: 150px;
+    margin-top: 20px;
+    padding: 5px 10px 5px 10px;
+}
+
+.banner .banner-content .download a {
+    text-decoration: none;
+    color: white;
 }
 
 .container-footer {
