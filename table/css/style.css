@@ -1,0 +1,24 @@
+body {
+    margin: 100px;
+}
+table {
+    border-collapse: collapse;
+}
+
+table tr td img {
+    width: 50%;
+    height: 50%;
+}
+
+tbody tr td {
+    height: auto;
+    width: 20%;
+}
+
+.video-clr {
+    background-color: #ff6347;
+}
+
+.map-clr {
+    background-color: rgba(0, 208, 208, 0.2);
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Forms</title>
+</head>
+<body>
+<div class="form">
+    <table border="0">
+        <thead>
+        <tr>
+            <th>Label</th>
+        </tr>
+        <tr>
+            <th>Field</th>
+        </tr>
+        </thead>
+        <tbody>
+        <form action="/process/form" enctype="multipart/form-data" method="post">
+
+        </form>
+        </tbody>
+    </table>
+
+    <form action="/process/form" enctype="multipart/form-data" method="post">
+
+            <div class="fname">
+                <label for="fname">First name: <span>*</span></label>
+                <input type="text" id="fname" required>
+            </div>
+            <div class="mname">
+                <label for="mname">Middle name: </label>
+                <input type="text" id="mname">
+            </div>
+            <div class="lname">
+                <label for="lname">Last name: </label>
+                <input type="text" id="lname">
+            </div>
+
+            <div class="sex">
+                <label>Sex: <span>*</span></label>
+                <input type="radio" name="sex" value="male" required>Male
+                <input type="radio" name="sex" value="femal">Female
+            </div>
+
+            <div class="mstatus">
+                <label>Marital Status: <span>*</span></label>
+                <select name="mstatus" id="mstatus">
+                    <option value="not-married">Not Married</option>
+                    <option value="married">Married</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="remarks">
+                <textarea name="remarks" id="remarks" cols="26" rows="5"></textarea>
+            </div>
+            <div class="attachment">
+                <label>Attachemnt <span>*</span></label>
+                <input type="file" name="files" required>
+            </div>
+            <input type="submit">
+            <input type="reset">
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Tables</title>
+</head>
+<body>
+
+<table border="1" summary="Sample table">
+    <caption><em>Sample table</em></caption>
+    <thead>
+        <tr>
+            <th>Images</th>
+            <th>Articles</th>
+            <th>HTML Collection and iframe</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img src="http://lorempixel.com/400/200/sports/1/" alt="Img1">    </td>
+            <td>
+                <p>
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cup
+                </p>
+            </td>
+            <td>
+                <ul>
+                    <li>list 1</li>
+                    <li>list 1</li>
+                    <li>list 1</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="http://lorempixel.com/400/200/sports/2/" alt="Img2"></td>
+            <td>
+                <p>
+                    At vertem quibusdam et aut officiis debitis aut rerum necessitatibus saepnsequatur aut perferendis doloribus asperiores repellat.
+                </p>
+            </td>
+            <td>
+                <ol>
+                    <li>list 1</li>
+                    <li>list 1</li>
+                    <li>list 1</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="http://lorempixel.com/400/200/sports/3/" alt="Img3"></td>
+            <td>
+                <p>
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui bla delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+                </p>
+            </td>
+            <td class="video-clr" rowspan="3" align="center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/uAXYz3AD_6I" frameborder="0" allowfullscreen></iframe>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="http://lorempixel.com/400/200/sports/4/" alt="Img4"></td>
+            <td>
+                <p>
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="http://lorempixel.com/400/200/sports/5/" alt="Img5"></td>
+            <td>data2</td>
+        </tr>
+        <tr>
+            <td><img src="http://lorempixel.com/400/200/sports/6/" alt="Img6"></td>
+            <td>
+                <p>
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum perferendis doloribus asperiores repellat.
+                </p>
+            </td>
+            <td>data3</td>
+        </tr>
+        <tr>
+            <td class="map-clr" colspan="3" align="center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7613.503952780474!2d78.37200967221673!3d17.42368645222735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93ff34e0153f%3A0x67519060dbf4e378!2sMadhura+Nagar+Colony%2C+Gachibowli%2C+Hyderabad%2C+Telangana+500032!5e0!3m2!1sen!2sin!4v1507965378713" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </td>
+        </tr>
+        <tr>
+            <td>data11</td>
+            <td>
+                <p>
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officpe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+                </p>
+            </td>
+            <td>data3</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            Table footer
+        </tr>
+    </tfoot>
+</table>
+
+
+<table border="1px">
+    <caption><em>Simple & test table</em></caption>
+    <tr>
+        <th>Column 1 heading</th>
+        <th>Column 2 heading</th>
+        <th>Column 3 heading</th>
+    </tr>
+    <tr>
+        <td colspan="2">Row 2, cell 1</td>
+        <!--
+                <td>Row 2, cell 2, also spanning Row 2, cell 3</td>
+        -->
+        <td rowspan="3">Row 3, cell 3</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Row 3, cell 1, also spanning Row 4, cell 1</td>
+        <td>Row 3, cell 2</td>
+    </tr>
+    <tr>
+        <td>Row 4, cell 2</td>
+        <!--
+                <td>Row 4, cell 3</td>
+        -->
+    </tr>
+</table>
+
+</body>
+</html>
