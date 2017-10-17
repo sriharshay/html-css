@@ -200,3 +200,7 @@ hr.hr-yelow {
 .container-footer {
     text-align: center;
 }
+
+.wip {
+    display: none;
+}
