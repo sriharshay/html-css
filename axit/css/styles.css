@@ -72,16 +72,129 @@ hr.hr-yelow {
     color: #ffff00;
 }
 
-.banner .banner-content .download {
+.download {
     border: 1px solid white;
     margin-right: 150px;
     margin-top: 20px;
     padding: 5px 10px 5px 10px;
 }
 
-.banner .banner-content .download a {
+.download a {
     text-decoration: none;
     color: white;
+}
+
+.download.orange {
+    background-color: orange;
+    margin-right: 88%;
+    margin-top: 4%;
+    padding: 5px 10px 5px 10px;
+}
+
+.container .container-main .container-content .registration {
+    border: 1px solid white;
+    position: absolute;
+    top: 45%;
+    width: 300px;
+    height: 300px;
+    left: 72%;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.container .container-main .container-content .registration .reg-title {
+    background-color: #f6f6ed;
+}
+
+.container .container-main .container-content .registration .reg-title h3 {
+    color: #000;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.container .container-main .container-content .registration .reg-title h3 span {
+    color: #ffa500;
+    text-transform: uppercase;
+}
+
+.container .container-main .container-content .registration input.fields {
+    margin: 10px;
+    width: 80%;
+    border: none;
+    padding: 10px;
+}
+
+.container .container-main .container-content .registration input[type="text"] {
+    border-bottom: 1px solid silver;
+}
+
+.container .container-main .container-content .registration input[type="email"] {
+    border-bottom: 1px solid silver;
+}
+
+.container .container-main .container-content .registration input[type="password"] {
+    border-bottom: 1px solid silver;
+    margin-bottom: 24%;
+}
+
+.container .container-main .container-content .registration input[type="submit"] {
+    border-style: none;
+    background-color: #ffa500;
+    width: 100%;
+}
+
+.container .container-main .container-content .social-sharing {
+    border: 1px solid silver;
+    overflow: hidden;
+    height: 90px;
+}
+
+.container .container-main .container-content .social-sharing .social-sharing-text {
+    float: left;
+    position: relative;
+    bottom: 4px;
+}
+
+.container .container-main .container-content .social-sharing .social-sharing-img {
+    float: right;
+    position: relative;
+    bottom: 9px;
+}
+
+.products-list {
+    background-color: #F5F5F5;
+}
+
+.products-list .tabs {
+    float: left;
+    width: 10%;
+}
+
+.products-list .tab-content {
+    float: left;
+    width: 60%;
+}
+
+.products-list .tab-image {
+    float: left;
+}
+
+.products-list ul {
+    -webkit-padding-start: 0;
+}
+
+.products-list ul li {
+    width: 60px;
+    height: 60px;
+    border: 0.0006em solid white;
+    background-color: black;
+    color: #fff;
+    padding: 10px 0px 0px 10px;
+}
+
+.products-list ul li:first-child {
+    background-color: #ffa500;
 }
 
 .container-footer {
