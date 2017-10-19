@@ -197,7 +197,8 @@ hr.hr-orange {
     width: 20%;
 }
 
-.products-list ul {
+.products-list ul,
+.pricing-options .bottom-section .pricing-plan ul {
     -webkit-padding-start: 0;
 }
 
@@ -249,21 +250,25 @@ hr.hr-orange {
     width: 75%;
 }
 
-.more-info .top-section {
+.more-info .top-section,
+.pricing-options .top-section{
     text-align: center;
     width: 100%;
     padding: 20px 0;
 }
 
-.more-info .top-section hr.hr-orange {
+.more-info .top-section hr.hr-orange,
+.pricing-options .top-section hr.hr-orange {
     margin: auto auto 15px;
 }
 
-.more-info .top-section h3 {
+.more-info .top-section h3,
+.pricing-options .top-section h3 {
     text-transform: uppercase;
 }
 
-.more-info .bottom-section {
+.more-info .bottom-section,
+.pricing-options .bottom-section {
     overflow: hidden;
 }
 .more-info .bottom-section .info-card {
@@ -273,8 +278,52 @@ hr.hr-orange {
     text-align: center;
 }
 
+.pricing-options {
+    background-color: #F5F5F5;
+}
+.pricing-options .bottom-section .pricing-plan {
+    float: left;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+}
 
+.pricing-options .bottom-section .pricing-plan ul li {
+    border: 1px solid silver;
+    background-color: white;
+}
 
+.pricing-options .bottom-section .pricing-plan ul li .plan-type {
+    background: black;
+    color: white;
+    padding: 5%;
+}
+
+.pricing-options .bottom-section .pricing-plan ul li .plan-cost {
+    background: black;
+    color: white;
+}
+
+.pricing-options .bottom-section .pricing-plan ul li .popular-no {
+    background-color: orange;
+    width: 100%;
+    height: 0.2em;
+}
+
+.pricing-options .bottom-section .pricing-plan ul li .popular {
+    background-color: orange;
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+}
+
+.pricing-options .bottom-section .pricing-plan ul li .plan-cost .price span.cost {
+    font-size: xx-large;
+}
+.pricing-options .bottom-section .pricing-plan ul li .plan-cost .duration {
+    font-style: italic;
+    font-size: x-small;
+}
 
 
 
