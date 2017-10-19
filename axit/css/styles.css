@@ -5,7 +5,7 @@ body {
 }
 
 .vpw {
-    padding: 0 100px 0 100px;
+    padding: 0 10% 0 10%;
 }
 
 p {
@@ -45,9 +45,8 @@ p {
 }
 
 .banner {
-    background: url("../image/bgr.jpg") no-repeat;
+    background: url("../image/bgr.jpg");
     background-size: cover;
-    width: 100%;
     color: #fff;
     overflow: hidden;
 }
@@ -56,9 +55,11 @@ p {
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
 .banner .banner-heading {
     float: left;
-    margin: 2% 7% 2% 7%;
+    margin: 2% 7% 2% 0;
+    width: 30%;
 }
 
 .banner .banner-heading .title {
@@ -98,28 +99,23 @@ hr.hr-orange {
 }
 
 .container-content .registration {
-    border: 1px solid white;
     float: right;
-    top: 45%;
-    width: 300px;
-    left: 72%;
-    border-radius: 5px;
-    background: #fff;
-    margin: 2% 7% 2% 7%;
+    width: 40%;
+    border-radius: 5%;
+    margin: 2% 0 2% 7%;
+    background-color: white;
+    overflow: hidden;
 }
 
-.container-content .registration .reg-title {
-    background-color: #f6f6ed;
-}
-
-.container-content .registration .reg-title h3 {
+.container-content .registration h3 {
     color: #000;
     margin: 0;
     padding: 10px;
     text-align: center;
+    background-color: #f6f6ed;
 }
 
-.container-content .registration .reg-title h3 span {
+.container-content .registration h3 span {
     color: #FF8B38;
     text-transform: uppercase;
 }
@@ -131,14 +127,8 @@ hr.hr-orange {
     padding: 10px;
 }
 
-.container-content .registration input[type="text"] {
-    border-bottom: 1px solid silver;
-}
-
-.container-content .registration input[type="email"] {
-    border-bottom: 1px solid silver;
-}
-
+.container-content .registration input[type="text"],
+.container-content .registration input[type="email"],
 .container-content .registration input[type="password"] {
     border-bottom: 1px solid silver;
 }
@@ -146,32 +136,30 @@ hr.hr-orange {
 .container-content .registration input[type="submit"] {
     border-style: none;
     background-color: #FF8B38;
-}
-
-.container-content .registration .reg-button {
-    background-color: #FF8B38;
     color: #000;
-    padding: 10px;
+    padding: 5%;
     text-align: center;
-    margin-top: 15px;
-    border-bottom-right-radius: 5%;
-    border-bottom-left-radius: 5%;
+    width: 100%;
+    margin-top: 5%;
 }
 
 .container-content .social-sharing {
     border: 1px solid silver;
     overflow: hidden;
-    height: 90px;
 }
 
 .container-content .social-sharing .social-sharing-text {
     float: left;
-    bottom: 4px;
+    width: 30%;
 }
 
 .container-content .social-sharing .social-sharing-img {
     float: right;
-    bottom: 9px;
+    width: 70%;
+}
+
+.container-content .social-sharing .social-sharing-img img {
+    width: 100%;
 }
 
 .products-list {
@@ -182,6 +170,7 @@ hr.hr-orange {
     float: left;
     width: 10%;
     padding-top: 15%;
+    text-transform: uppercase;
 }
 
 .products-list .tab-content {
@@ -244,6 +233,7 @@ hr.hr-orange {
     margin: 5% 2.5% 5% 0;
     width: 20%;
 }
+
 .product-info {
     float: left;
     margin: 5% 0 5% 2.5%;
@@ -280,6 +270,7 @@ hr.hr-orange {
 .pricing-options .bottom-section {
     overflow: hidden;
 }
+
 .more-info .bottom-section .info-card {
     float: left;
     padding: 10px;
@@ -290,6 +281,7 @@ hr.hr-orange {
 .pricing-options {
     background-color: #F5F5F5;
 }
+
 .pricing-options .bottom-section .pricing-plan {
     float: left;
     padding: 10px;
@@ -302,7 +294,7 @@ hr.hr-orange {
     border-bottom: 1px solid silver;
 }
 
-.pricing-options .bottom-section .pricing-plan ul li div.plan-info{
+.pricing-options .bottom-section .pricing-plan ul li div.plan-info {
     text-transform: uppercase;
     font-size: small;
     padding: 2%;
@@ -342,6 +334,7 @@ hr.hr-orange {
 .pricing-options .bottom-section .pricing-plan ul li .plan-cost .price span.cost {
     font-size: xx-large;
 }
+
 .pricing-options .bottom-section .pricing-plan ul li .plan-cost .duration {
     font-style: italic;
     font-size: x-small;
@@ -369,7 +362,7 @@ hr.hr-orange {
 
 .testimonials .bottom-section .testimonial .profile .pic {
     float: left;
-    width:40%;
+    width: 40%;
 }
 
 .testimonials .bottom-section .testimonial .profile .text {
@@ -454,6 +447,7 @@ hr.hr-orange {
 .contact-us form {
     overflow: hidden;
 }
+
 .contact-us .form1 {
     float: left;
     width: 50%;
