@@ -93,7 +93,7 @@ hr.hr-orange {
 }
 
 .download.orange {
-    background-color: orange;
+    background-color: #FF8B38;
     width: 100px;
 }
 
@@ -288,8 +288,18 @@ hr.hr-orange {
     text-align: center;
 }
 
-.pricing-options .bottom-section .pricing-plan ul li {
-    border: 1px solid silver;
+.pricing-options .bottom-section .pricing-plan ul li div.plan-info,
+.pricing-options .bottom-section .pricing-plan ul li div.plan-type {
+    border-bottom: 1px solid silver;
+}
+
+.pricing-options .bottom-section .pricing-plan ul li div.plan-info{
+    text-transform: uppercase;
+    font-size: small;
+    padding: 2%;
+}
+
+.pricing-options .bottom-section .pricing-plan ul li div.plan-info {
     background-color: white;
 }
 
@@ -302,17 +312,16 @@ hr.hr-orange {
 .pricing-options .bottom-section .pricing-plan ul li .plan-cost {
     background: black;
     color: white;
+    padding: 5%;
 }
 
 .pricing-options .bottom-section .pricing-plan ul li .popular-no {
-    background-color: orange;
-    width: 100%;
+    background-color: #FF8B38;
     height: 0.2em;
 }
 
 .pricing-options .bottom-section .pricing-plan ul li .popular {
-    background-color: orange;
-    width: 100%;
+    background-color: #FF8B38;
     color: white;
     text-transform: uppercase;
 }
