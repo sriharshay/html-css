@@ -44,17 +44,20 @@ body {
     background: url("../image/bgr.jpg") no-repeat;
     background-size: cover;
     width: 100%;
-    height: 640px;
     color: #fff;
+    overflow: hidden;
 }
 
 .banner .banner-content {
-    position: absolute;
-    top: 45%;
-    left: 7%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.banner .banner-heading {
+    float: left;
+    margin: 2% 7% 2% 7%;
 }
 
-.banner .banner-content .title {
+.banner .banner-heading .title {
     text-transform: uppercase;
 }
 
@@ -65,16 +68,17 @@ hr {
 }
 
 hr.hr-white {
-    color: #ffffff;
+    border: 2px solid #ffffff;
 }
 
-hr.hr-yelow {
-    color: #ffff00;
+hr.hr-orange {
+    border: 2px solid #ffa500;
 }
 
 .download {
     border: 1px solid white;
-    margin-right: 150px;
+    width: 100px;
+    text-align: center;
     margin-top: 20px;
     padding: 5px 10px 5px 10px;
 }
@@ -86,20 +90,18 @@ hr.hr-yelow {
 
 .download.orange {
     background-color: orange;
-    margin-right: 88%;
-    margin-top: 4%;
-    padding: 5px 10px 5px 10px;
+    width: 100px;
 }
 
 .container .container-main .container-content .registration {
     border: 1px solid white;
-    position: absolute;
+    float: right;
     top: 45%;
     width: 300px;
-    height: 300px;
     left: 72%;
     border-radius: 5px;
     background: #fff;
+    margin: 2% 7% 2% 7%;
 }
 
 .container .container-main .container-content .registration .reg-title {
@@ -119,7 +121,7 @@ hr.hr-yelow {
 }
 
 .container .container-main .container-content .registration input.fields {
-    margin: 10px;
+    margin: 15px;
     width: 80%;
     border: none;
     padding: 10px;
@@ -135,13 +137,21 @@ hr.hr-yelow {
 
 .container .container-main .container-content .registration input[type="password"] {
     border-bottom: 1px solid silver;
-    margin-bottom: 24%;
 }
 
 .container .container-main .container-content .registration input[type="submit"] {
     border-style: none;
     background-color: #ffa500;
-    width: 100%;
+}
+
+.container .container-main .container-content .registration .reg-button {
+    background-color: #ffa500;
+    color: #000;
+    padding: 10px;
+    text-align: center;
+    margin-top: 15px;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
 }
 
 .container .container-main .container-content .social-sharing {
@@ -152,13 +162,11 @@ hr.hr-yelow {
 
 .container .container-main .container-content .social-sharing .social-sharing-text {
     float: left;
-    position: relative;
     bottom: 4px;
 }
 
 .container .container-main .container-content .social-sharing .social-sharing-img {
     float: right;
-    position: relative;
     bottom: 9px;
 }
 
@@ -169,33 +177,71 @@ hr.hr-yelow {
 .products-list .tabs {
     float: left;
     width: 10%;
+    padding-top: 15%;
 }
 
 .products-list .tab-content {
     float: left;
-    width: 60%;
+    width: 50%;
+    padding: 15% 5%;
+    text-align: justify;
 }
 
 .products-list .tab-image {
     float: left;
+    padding-top: 15%;
+    width: 20%;
 }
 
 .products-list ul {
     -webkit-padding-start: 0;
 }
 
-.products-list ul li {
-    width: 60px;
-    height: 60px;
+.products-list ul li div {
     border: 0.0006em solid white;
     background-color: black;
     color: #fff;
-    padding: 10px 0px 0px 10px;
+    text-align: center;
+    padding: 40px 0;
 }
 
-.products-list ul li:first-child {
+.products-list ul li:first-child div {
     background-color: #ffa500;
 }
+
+.product-article {
+    border: 1px solid red;
+}
+.product-image {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    float: left;
+    margin-right: 5%;
+    width: 40%;
+
+}
+
+.product-content {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    float: left;
+    width: 50%;
+}
+
+.product-content .product-listing {
+    overflow: hidden;
+}
+
+.product-content .cloud-img {
+    float: left;
+    margin: 5% 2.5% 5% 0;
+}
+.product-content .product-info {
+    float: left;
+    margin: 5% 0 5% 2.5%;
+}
+
 
 .container-footer {
     text-align: center;
