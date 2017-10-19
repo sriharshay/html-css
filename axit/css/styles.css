@@ -120,7 +120,7 @@ hr.hr-orange {
 }
 
 .container .container-main .container-content .registration .reg-title h3 span {
-    color: #ffa500;
+    color: #FF8B38;
     text-transform: uppercase;
 }
 
@@ -145,11 +145,11 @@ hr.hr-orange {
 
 .container .container-main .container-content .registration input[type="submit"] {
     border-style: none;
-    background-color: #ffa500;
+    background-color: #FF8B38;
 }
 
 .container .container-main .container-content .registration .reg-button {
-    background-color: #ffa500;
+    background-color: #FF8B38;
     color: #000;
     padding: 10px;
     text-align: center;
@@ -211,7 +211,7 @@ hr.hr-orange {
 }
 
 .products-list ul li:first-child div {
-    background-color: #ffa500;
+    background-color: #FF8B38;
     border-bottom: 1px solid;
 }
 
