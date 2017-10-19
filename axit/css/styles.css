@@ -464,10 +464,22 @@ hr.hr-orange {
     width: 50%;
 }
 
-.container-footer {
+.container-footer .footer {
+    background-color: black;
     text-align: center;
+    color: white;
 }
 
-.wip {
-    display: none;
+.container-footer .social-sharing {
+    margin: auto;
+}
+
+.container-footer .social-sharing img {
+    width: 30%;
+}
+
+.container-footer .copyright {
+    font-size: smaller;
+    text-align: center;
+    font-weight: lighter;
 }
