@@ -97,7 +97,7 @@ hr.hr-orange {
     width: 100px;
 }
 
-.container .container-main .container-content .registration {
+.container-content .registration {
     border: 1px solid white;
     float: right;
     top: 45%;
@@ -108,47 +108,47 @@ hr.hr-orange {
     margin: 2% 7% 2% 7%;
 }
 
-.container .container-main .container-content .registration .reg-title {
+.container-content .registration .reg-title {
     background-color: #f6f6ed;
 }
 
-.container .container-main .container-content .registration .reg-title h3 {
+.container-content .registration .reg-title h3 {
     color: #000;
     margin: 0;
     padding: 10px;
     text-align: center;
 }
 
-.container .container-main .container-content .registration .reg-title h3 span {
+.container-content .registration .reg-title h3 span {
     color: #FF8B38;
     text-transform: uppercase;
 }
 
-.container .container-main .container-content .registration input.fields {
+.container-content .registration input.fields {
     margin: 15px;
     width: 80%;
     border: none;
     padding: 10px;
 }
 
-.container .container-main .container-content .registration input[type="text"] {
+.container-content .registration input[type="text"] {
     border-bottom: 1px solid silver;
 }
 
-.container .container-main .container-content .registration input[type="email"] {
+.container-content .registration input[type="email"] {
     border-bottom: 1px solid silver;
 }
 
-.container .container-main .container-content .registration input[type="password"] {
+.container-content .registration input[type="password"] {
     border-bottom: 1px solid silver;
 }
 
-.container .container-main .container-content .registration input[type="submit"] {
+.container-content .registration input[type="submit"] {
     border-style: none;
     background-color: #FF8B38;
 }
 
-.container .container-main .container-content .registration .reg-button {
+.container-content .registration .reg-button {
     background-color: #FF8B38;
     color: #000;
     padding: 10px;
@@ -158,18 +158,18 @@ hr.hr-orange {
     border-bottom-left-radius: 5%;
 }
 
-.container .container-main .container-content .social-sharing {
+.container-content .social-sharing {
     border: 1px solid silver;
     overflow: hidden;
     height: 90px;
 }
 
-.container .container-main .container-content .social-sharing .social-sharing-text {
+.container-content .social-sharing .social-sharing-text {
     float: left;
     bottom: 4px;
 }
 
-.container .container-main .container-content .social-sharing .social-sharing-img {
+.container-content .social-sharing .social-sharing-img {
     float: right;
     bottom: 9px;
 }
@@ -251,19 +251,28 @@ hr.hr-orange {
 }
 
 .more-info .top-section,
-.pricing-options .top-section{
+.pricing-options .top-section,
+.testimonials .top-section,
+.resources .top-section,
+.contact-us .top-section {
     text-align: center;
     width: 100%;
     padding: 20px 0;
 }
 
 .more-info .top-section hr.hr-orange,
-.pricing-options .top-section hr.hr-orange {
+.pricing-options .top-section hr.hr-orange,
+.testimonials .top-section hr.hr-orange,
+.resources .top-section hr.hr-orange,
+.contact-us .top-section hr.hr-orange {
     margin: auto auto 15px;
 }
 
 .more-info .top-section h3,
-.pricing-options .top-section h3 {
+.pricing-options .top-section h3,
+.testimonials .top-section h3,
+.resources .top-section h3,
+.contact-us .top-section h3 {
     text-transform: uppercase;
 }
 
@@ -338,12 +347,122 @@ hr.hr-orange {
     font-size: x-small;
 }
 
+.testimonials .bottom-section .testimonial {
+    float: left;
+    padding: 10px;
+    width: 30%;
+    text-align: left;
+}
 
+.testimonials .bottom-section .testimonial .comment {
+    background-color: #F5F5F5;
+    font-weight: lighter;
+    font-size: small;
+    font-style: italic;
+    padding: 5%;
+}
 
+.testimonials .bottom-section .testimonial .profile {
+    overflow: hidden;
+    padding: 10%;
+}
 
+.testimonials .bottom-section .testimonial .profile .pic {
+    float: left;
+    width:40%;
+}
 
+.testimonials .bottom-section .testimonial .profile .text {
+    float: left;
+    width: 50%;
+    padding-top: 9%;
+}
 
+.testimonials .bottom-section .testimonial .profile .text .name {
+    font-weight: bold;
+    font-size: large;
+}
 
+.testimonials .bottom-section .testimonial .profile .text .name::after {
+    content: ".";
+}
+
+.testimonials .bottom-section .testimonial .profile .text .job {
+    font-weight: lighter;
+    font-size: small;
+}
+
+.resources {
+    background: url("../image/ebag.png") center fixed;
+    color: white;
+    padding: 5%;
+}
+
+.resources .top-section {
+    font-weight: lighter;
+}
+
+.resources .hr-white,
+.resources .download {
+    margin: auto;
+}
+
+.resources .hr-white {
+    margin-bottom: 15px;
+}
+
+.container-content .contact-us {
+    padding: 5%;
+}
+
+.container-content .contact-us .fields {
+    margin: 15px;
+    width: 80%;
+    border: none;
+    padding: 10px;
+}
+
+.container-content .contact-us input[type="text"] {
+    border-bottom: 1px solid silver;
+}
+
+.container-content .contact-us input[type="email"] {
+    border-bottom: 1px solid silver;
+}
+
+.container-content .contact-us input[type="password"] {
+    border-bottom: 1px solid silver;
+}
+
+.container-content .contact-us textarea.fields {
+    border-bottom: 1px solid silver;
+}
+
+.container-content .contact-us input[type="submit"] {
+    border-style: none;
+    background-color: #FF8B38;
+    color: white;
+    padding: 1% 2%;
+}
+
+.container-content .contact-us .reg-button {
+    padding: 10px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.contact-us form {
+    overflow: hidden;
+}
+.contact-us .form1 {
+    float: left;
+    width: 50%;
+}
+
+.contact-us .form2 {
+    float: left;
+    width: 50%;
+}
 
 .container-footer {
     text-align: center;
