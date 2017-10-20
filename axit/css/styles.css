@@ -133,6 +133,10 @@ hr.hr-orange {
     border-bottom: 1px solid silver;
 }
 
+.container-content .registration input:nth-last-child(2) {
+    margin-bottom: 10%;
+}
+
 .container-content .registration input[type="submit"] {
     border-style: none;
     background-color: #FF8B38;
@@ -140,7 +144,6 @@ hr.hr-orange {
     padding: 5%;
     text-align: center;
     width: 100%;
-    margin-top: 5%;
 }
 
 .container-content .social-sharing {
