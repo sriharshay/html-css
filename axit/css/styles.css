@@ -5,12 +5,13 @@ body {
 }
 
 .vpw {
-    padding: 0 10% 0 10%;
+    padding: 5% 10% 5% 10%;
 }
 
 p,
 div.short-description,
-div.text {
+div.text,
+.container-footer .copyright {
     text-align: justify;
     font-weight: lighter;
     font-size: small;
@@ -18,6 +19,7 @@ div.text {
 
 .container .container-header {
     background-color: #000;
+    padding: 0 10% 0 10%;
 }
 
 .container .container-header .logo img {
@@ -53,11 +55,6 @@ div.text {
     background-size: cover;
     color: #fff;
     overflow: hidden;
-}
-
-.banner .banner-content {
-    margin-top: 5%;
-    margin-bottom: 5%;
 }
 
 .banner .banner-heading {
@@ -138,7 +135,7 @@ hr.hr-orange {
 }
 
 .container-content .registration input:nth-last-child(2) {
-    margin-bottom: 10%;
+    margin-bottom: 15%;
 }
 
 .container-content .registration input[type="submit"] {
@@ -176,7 +173,6 @@ hr.hr-orange {
 .products-list .tabs {
     float: left;
     width: 10%;
-    padding-top: 15%;
     text-transform: uppercase;
 }
 
@@ -189,13 +185,12 @@ hr.hr-orange {
 .products-list .tab-content {
     float: left;
     width: 50%;
-    padding: 15% 5%;
+    padding: 0 5%;
     text-align: justify;
 }
 
 .products-list .tab-image {
     float: left;
-    padding-top: 15%;
     width: 20%;
 }
 
@@ -222,23 +217,15 @@ hr.hr-orange {
 }
 
 .prd-left {
-    margin-top: 10%;
-    margin-bottom: 10%;
     float: left;
     margin-right: 5%;
     width: 40%;
 }
 
 .prd-right {
-    margin-top: 10%;
-    margin-bottom: 10%;
     margin-left: 10%;
     float: left;
     width: 40%;
-}
-
-.product {
-    overflow: hidden;
 }
 
 .cloud-img {
@@ -264,7 +251,7 @@ hr.hr-orange {
 .contact-us .top-section {
     text-align: center;
     width: 100%;
-    padding: 20px 0;
+    padding-bottom: 2%;
 }
 
 .more-info .top-section hr.hr-orange,
@@ -284,7 +271,9 @@ hr.hr-orange {
 }
 
 .more-info .bottom-section,
-.pricing-options .bottom-section {
+.pricing-options .bottom-section,
+.contact-us form,
+.product {
     overflow: hidden;
 }
 
@@ -372,6 +361,22 @@ hr.hr-orange {
     padding: 5%;
 }
 
+.testimonials .bottom-section .testimonial .tip {
+    border: 15px solid #F5F5F5;
+    position: relative;
+    background: transparent;
+    width: 0;
+    height: 0;
+}
+
+.testimonials .bottom-section .testimonial .tip-down {
+    bottom: -14px;
+    left: 30px;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+}
+
 .testimonials .bottom-section .testimonial .profile {
     overflow: hidden;
     padding: 5%;
@@ -413,11 +418,13 @@ hr.hr-orange {
 }
 
 .resources .hr-white,
-.resources .download {
+.resources .download,
+.container-footer .social-sharing {
     margin: auto;
 }
 
-.resources .text {
+.resources .text,
+.container-footer .copyright {
     text-align: center;
 }
 
@@ -436,18 +443,9 @@ hr.hr-orange {
     padding: 10px;
 }
 
-.container-content .contact-us input[type="text"] {
-    border-bottom: 1px solid silver;
-}
-
-.container-content .contact-us input[type="email"] {
-    border-bottom: 1px solid silver;
-}
-
-.container-content .contact-us input[type="password"] {
-    border-bottom: 1px solid silver;
-}
-
+.container-content .contact-us input[type="text"],
+.container-content .contact-us input[type="email"],
+.container-content .contact-us input[type="password"],
 .container-content .contact-us textarea.fields {
     border-bottom: 1px solid silver;
 }
@@ -463,10 +461,6 @@ hr.hr-orange {
     padding: 10px;
     text-align: center;
     margin-top: 15px;
-}
-
-.contact-us form {
-    overflow: hidden;
 }
 
 .contact-us .form1 {
@@ -485,16 +479,6 @@ hr.hr-orange {
     color: white;
 }
 
-.container-footer .social-sharing {
-    margin: auto;
-}
-
 .container-footer .social-sharing img {
     width: 30%;
-}
-
-.container-footer .copyright {
-    font-size: smaller;
-    text-align: center;
-    font-weight: lighter;
 }
