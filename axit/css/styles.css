@@ -8,8 +8,12 @@ body {
     padding: 0 10% 0 10%;
 }
 
-p {
+p,
+div.short-description,
+div.text {
     text-align: justify;
+    font-weight: lighter;
+    font-size: small;
 }
 
 .container .container-header {
@@ -59,7 +63,7 @@ p {
 .banner .banner-heading {
     float: left;
     margin: 2% 7% 2% 0;
-    width: 30%;
+    width: 50%;
 }
 
 .banner .banner-heading .title {
@@ -100,8 +104,8 @@ hr.hr-orange {
 
 .container-content .registration {
     float: right;
-    width: 40%;
-    border-radius: 5%;
+    width: 30%;
+    border-radius: 1%;
     margin: 2% 0 2% 7%;
     background-color: white;
     overflow: hidden;
@@ -176,6 +180,12 @@ hr.hr-orange {
     text-transform: uppercase;
 }
 
+.products-list .tabs a,
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
 .products-list .tab-content {
     float: left;
     width: 50%;
@@ -233,14 +243,18 @@ hr.hr-orange {
 
 .cloud-img {
     float: left;
-    margin: 5% 2.5% 5% 0;
-    width: 20%;
+    margin: 5% 0 5% 0;
+    width: 15%;
 }
 
 .product-info {
     float: left;
-    margin: 5% 0 5% 2.5%;
+    margin: 5% 0 5% 0;
     width: 75%;
+}
+
+.product-info h5 {
+    margin-top: 0;
 }
 
 .more-info .top-section,
@@ -287,7 +301,7 @@ hr.hr-orange {
 
 .pricing-options .bottom-section .pricing-plan {
     float: left;
-    padding: 10px;
+    padding: 15px;
     width: 30%;
     text-align: center;
 }
@@ -360,18 +374,18 @@ hr.hr-orange {
 
 .testimonials .bottom-section .testimonial .profile {
     overflow: hidden;
-    padding: 10%;
+    padding: 5%;
 }
 
 .testimonials .bottom-section .testimonial .profile .pic {
     float: left;
-    width: 40%;
+    width: 30%;
 }
 
 .testimonials .bottom-section .testimonial .profile .text {
     float: left;
-    width: 50%;
-    padding-top: 9%;
+    width: 70%;
+    padding-top: 5%;
 }
 
 .testimonials .bottom-section .testimonial .profile .text .name {
@@ -401,6 +415,10 @@ hr.hr-orange {
 .resources .hr-white,
 .resources .download {
     margin: auto;
+}
+
+.resources .text {
+    text-align: center;
 }
 
 .resources .hr-white {
