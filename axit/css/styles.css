@@ -66,8 +66,14 @@ div.text,
     width: 50%;
 }
 
-.banner .banner-heading .title {
+.banner .banner-heading img {
+    width: 35%;
+}
+
+.banner .banner-heading .title h1 {
     text-transform: uppercase;
+    font-size: x-large;
+    font-weight: lighter;
 }
 
 hr {
