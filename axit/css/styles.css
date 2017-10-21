@@ -137,6 +137,11 @@ hr.hr-orange {
     padding: 10px;
 }
 
+.container-content .registration input.fields:focus {
+    outline-width: 0;
+}
+
+
 .container-content .registration input[type="text"],
 .container-content .registration input[type="email"],
 .container-content .registration input[type="password"] {
@@ -206,6 +211,7 @@ hr.hr-orange {
 .products-list ul,
 .pricing-options .bottom-section .pricing-plan ul {
     -webkit-padding-start: 0;
+    list-style: none;
 }
 
 .products-list ul li div {
