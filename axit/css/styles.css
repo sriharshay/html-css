@@ -25,27 +25,31 @@ div.text,
     background-color: #000;
 }
 
-.container .container-header .logo img {
-    width: 50%;
-}
-
 .header {
     background-color: #000;
     overflow: auto;
     color: #fff;
 }
 
-.header .logo {
+.header img {
+    display: inline-block;
+}
+
+.header ul {
+    list-style-type: none;
+    float: right;
+    padding: 16px 0 16px 16px;
+    margin: 4% 0 4% 4%;
+    -webkit-padding-start: 0
+}
+
+.header ul li {
+    padding: 0 10px;
     float: left;
 }
 
-.nav ul {
-    list-style-type: none;
-    float: right;
-}
-
-.nav ul li {
-    padding: 10px;
+.header ul li:last-child {
+    padding-right: 0;
     float: left;
 }
 
@@ -191,7 +195,7 @@ hr.hr-orange {
 }
 
 .products-list .tabs a,
-.nav a {
+.header a {
     text-decoration: none;
     color: white;
 }
