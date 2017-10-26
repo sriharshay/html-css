@@ -37,14 +37,15 @@ p.txt {
 }
 
 .header img {
-    display: inline-block;
+    width: 100px;
+    height:auto;
+    padding: 16px 16px 16px 0;
 }
 
 .header ul {
     list-style-type: none;
     float: right;
     padding: 16px 0 16px 16px;
-    margin: 4% 0 4% 4%;
     -webkit-padding-start: 0
 }
 
@@ -79,7 +80,7 @@ p.txt {
     width: 35%;
 }
 
-.banner .banner-heading .title h1 {
+.banner .banner-heading h1 {
     text-transform: uppercase;
     font-size: x-large;
     font-weight: lighter;
