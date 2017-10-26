@@ -13,11 +13,17 @@ body {
 }
 
 p,
-div.short-description,
 div.text {
-    text-align: justify;
     font-weight: lighter;
     font-size: small;
+}
+
+p.txt {
+    text-align: justify;
+}
+
+ p.txt-align-center {
+    text-align: center;
 }
 
 .container .container-header {
@@ -493,11 +499,6 @@ hr.hr-orange {
     background-color: black;
     text-align: center;
     color: white;
-}
-
-
-.container-footer p {
-    text-align: center;
 }
 
 .container-footer img {
